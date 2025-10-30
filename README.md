@@ -5,3 +5,5 @@ This Python script connects to a SQL Server database, retrieves security alerts 
 It helps security teams validate developer-marked “false positives” and identify whether the alert is truly a false positive, a true positive, or secure code.
 
 Here while running the script you need to pass api_key.txt file of your open api key
+
+usage: python false_positive.py -k api_key.txt
